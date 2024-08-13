@@ -1,0 +1,119 @@
+.header{
+background-color: rgb(244, 90, 116);
+height: 100px;
+display: flex;
+}
+
+.heading{
+    color: white;
+    font-size: 50px;
+    padding-top: 32px;
+    text-align: center;
+    padding-left: 40%;
+}
+.home-quote{
+    font-size: 40px;
+    font-style: italic;
+    padding-top: 5%;
+}
+.home-option{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 2%;
+  padding-top: 8%;
+}
+.icon{
+    color: white;
+    padding-top: 50px;
+    padding-left: 10px;
+    font-size: x-large;
+}
+
+#userActive{
+    background-color: gainsboro;
+}
+
+.signin-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: rgba(229, 145, 173, 0.407);
+   margin: 100px 450px 0px 450px;
+   height: 350px;
+   border: 2px solid gainsboro;
+   border-radius: 5px;
+   
+}
+.signin-placeholder{
+    height: 70px;
+    width: 300px;
+    font-size: 25px;
+    border: 2px solid gainsboro;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+.signin-placeholder:active{
+    background-color: gainsboro;
+    color: white;
+}
+
+.options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.options-btn{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 30px;
+    font-style: italic;
+    border: 2px solid gray;
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.options-btn:hover{
+    background-color: gainsboro;
+    transform: scale(0.95);
+}
+
+.signin-button{
+    margin-top: 50px;
+    width: 220px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: paleturquoise;
+    font-size: 25px;
+    color: rgb(43, 42, 42);
+    transition: all 0.3s ease-in-out;
+}
+
+.signin-button:hover{
+    cursor: pointer;
+    transform: scale(0.90);
+}
+
+.signi-box{
+    background-color: rgba(216, 112, 147, 0.193);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   margin: 100px 450px 0px 450px;
+   height: 350px;
+   border: 2px solid gainsboro;
+   border-radius: 5px;
+   
+}
